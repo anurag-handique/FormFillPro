@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ccc;
+  /* background-color: #000000; */
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 150px;
 }
 .apply_box {
   max-width: 600px;
@@ -17,11 +22,12 @@ body {
   background-color: white;
   margin: 0 auto;
   margin-top: 50px;
-  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5);
-  border-radius: 10px;
+  box-shadow: 5px 5px 18px #b0b0b0;
+  border-radius: 15px;
 }
 .title_small {
   font-size: 20px;
+  color: darkgreen;
 }
 .form_container {
   margin-top: 20px;
